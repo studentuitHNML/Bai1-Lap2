@@ -1,0 +1,26 @@
+
+body {
+display:flex;
+align-items:center;
+justify-content:center;
+height:100vh;
+}
+.container {
+border:2px solid blue;
+max-width:50vw;
+width:100%;
+padding:1px;
+background-color:#FFEDCA;
+}
+table {
+    border: 2px solid blue;
+    border-collapse:collapse;
+    background-color:#FFEDCA;
+    width:100%;
+}
+.submit {
+text-align:center;
+}
+#quantity>input {
+border-radius:5px;
+}

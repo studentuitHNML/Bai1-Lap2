@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset ="UTF-8">
+        <title>BẢNG TÍNH LƯƠNG</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <div class="container">
+      
+                <table border="1">
+                    <tr>
+                        <td>Lương</td>
+                        <td><input oninput="Regular_Expression()" type="text" name="salory" style="width:70%"
+                          id="operand1"></td>
+                    </tr>
+                    <tr>
+                        <td>Hệ số lương</td>
+                        <td id="quantity"><input type="number" min="1" max="100" step ="0.1" id="operand2"></td>
+                    </tr>
+                    <tr class="submit">
+                        <td colspan="2"><button onclick="myFunction()">Tính lương tháng
+                        </button></td>
+                       
+                    </tr>
+                    <tr>
+                        <td>Lương tháng</td>
+                        <td><label id="result" ></label></td>
+                    </tr>
+                </table>
+           
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
+
